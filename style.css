@@ -1,0 +1,175 @@
+body{
+    background-color: #edefee;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.header_logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30rem;
+    padding:  10px;
+}
+
+nav{
+    background-color: peachpuff;
+    height: 67px;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+li a{
+    border: 1px solid black;
+    margin: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: gray;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+li a:hover{
+    border: none;
+    margin: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    text-shadow: 0 0 3px #0000, 0 0 5px #3ac404;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    
+
+}
+
+nav  li{
+    display: inline-block;
+
+}
+
+
+/* section{
+    display: flex;
+}
+
+article{
+    flex: 2;
+} */
+
+.first_heading{
+    background-image: linear-gradient(rgb(9, 78, 5), yellow);
+    width: auto;
+    height: 100%;
+    border-radius: 10px;
+    color: rgb(5, 5, 5);
+}
+
+.first_heading h1{
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.first_heading p{
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.first_heading:hover{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(245, 242, 242));
+    color: #9a9a9a;
+    font-size: 15px;
+    border: 5px dotted green;
+    font-weight: 900;
+    margin: 10px;
+
+}
+
+.container{
+    display: flex;
+    border-radius: 17px;
+    padding: 10px;
+
+}
+
+.first_box{
+    margin: 10px;
+    padding: 16px;
+    width: 33%;
+    height: 27rem;
+    background-color: peachpuff;
+    border-radius: 17px;
+    transition: transform 0.3s ease;
+}
+
+.first_box:hover{
+    
+        animation: animateBackground 2s infinite alternate;
+        color: aliceblue;
+        
+      }
+      
+      @keyframes animateBackground {
+        0%{
+           background-color: #fff;
+        }
+
+        25%{
+            background-color:  #3dd401 ;
+        }
+
+        50%{
+            background-color: #38bd03;
+        }
+
+        75%{
+            background-color: #2e9f01;
+        }
+        100%{
+            background-color: #0e3001;
+            
+        }
+
+
+     
+    }
+      
+
+
+
+
+
+.second_box{
+    margin: 10px;
+    padding: 16px;
+    width: 33%;
+    height: 27rem;
+    background-color: peachpuff;
+    border-radius: 17px;
+}
+
+.third_box{
+    margin: 10px;
+    padding: 16px;
+    width: 33%;
+    height: 27rem;
+    background-color: peachpuff;
+    border-radius: 17px;
+}
